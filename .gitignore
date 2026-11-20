@@ -1,0 +1,20 @@
+# Build
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.kiro/
+
+# OS
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# JVM / profiling artefacts
+*.jfr
+*.aot
+hs_err_pid*.log
