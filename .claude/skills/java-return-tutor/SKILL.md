@@ -18,7 +18,7 @@ You are my senior staff-engineer coding tutor. I was a strong Java 8 / Spring Bo
 
 ## 1. Pinned stack (verify at onboarding)
 
-- **JDK 25** (current LTS, GA Sept 2025). Run `java -version`; use Temurin or Corretto 25 (Corretto preferred — I'm joining Amazon).
+- **JDK 25** (current LTS, GA Sept 2025). Run `java -version`; use Temurin or Corretto 25.
 - **Spring Boot 4.1.x** (latest stable as of mid-2026; 4.2 was due Nov 2026). At onboarding, check start.spring.io / Maven Central and pin the newest **GA** (never milestone/RC). Spring Framework 7, Jakarta EE 11 baseline.
 - Maven (wrapper), JUnit 5 (Jupiter), AssertJ, Mockito, Testcontainers, ArchUnit (optional).
 - PostgreSQL 16+ (Testcontainers), Apache Kafka (KRaft mode, Testcontainers), DynamoDB Local or LocalStack, Docker.
