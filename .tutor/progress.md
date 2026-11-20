@@ -31,13 +31,13 @@ Toolchain smoke test: `./mvnw verify` → `Tests run: 3, Failures: 0, Errors: 0,
 
 ## Time budget
 
-ASSUMPTION (unconfirmed): ~90 min weekdays, ~3 h weekend days. Start: Day 1 = Fri 2026-11-20.
+Confirmed 2026-11-20: ~90 min weekdays, ~3 h weekend days. Day 1 = Fri 2026-11-20 → Day 20 = Wed 2026-12-09.
 
 ## Mission status
 
 | # | Mission | Planned day | Status | Score (C/D/Cc/T/R/P/Pr) |
 |---|---|---|---|---|
-| M1 | Order domain model | 1 | not started | |
+| M1 | Order domain model | 1 | **issued** 2026-11-20 (57 failing tests) | |
 | M2 | Order analytics engine | 2–3 | not started | |
 | M3 | Thread-safe LRU cache with TTL | 4 | not started | |
 | M4 | Inventory reservation & quote fan-out | 5 | not started | |
@@ -65,3 +65,4 @@ _(empty)_
 ## Session log
 
 - 2026-11-20 — `onboard`: verified env, pinned versions, scaffolded root pom + `katas/` module + wrapper, smoke test green.
+- 2026-11-20 — time budget confirmed; `next`: M1 issued. Acceptance tests pre-validated against a throwaway solution (60/60 green), solution discarded.
